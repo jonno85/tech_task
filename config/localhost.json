@@ -1,0 +1,16 @@
+{
+  "app": {
+    "port": "8000",
+    "name": "Qonto technical task"
+  },
+  "postgres": {
+    "database": "qonto",
+    "port": 5432,
+    "host": "localhost",
+    "user": "local",
+    "password": "local"
+  },
+  "knex": {
+    "migrationExtension": [".ts"]
+  }
+}
